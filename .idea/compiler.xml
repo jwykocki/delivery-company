@@ -9,14 +9,16 @@
         <module name="delivery-administration-domain" />
         <module name="delivery-infrastructure" />
         <module name="delivery-administration-infrastructure" />
+        <module name="delivery-application" />
         <module name="bom-module" />
         <module name="delivery-administration-application" />
         <module name="common-module" />
-        <module name="delivey-application" />
         <module name="integration-module" />
-        <module name="parent-module" />
         <module name="delivery-domain" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="parent-module" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -12,7 +12,7 @@
     <artifactId>delivery</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>delivey-application</module>
+        <module>delivery-application</module>
         <module>delivery-domain</module>
         <module>delivery-infrastructure</module>
     </modules>
