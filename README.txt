@@ -2,7 +2,6 @@
 First steps with Maven
 
 Implementacja wielomodułowej struktury projektu firmy kurierskiej.
-Projekt w ramach nauki, możliwe że zawiera błędy.
 
 Drzewo modułów:
 
@@ -30,5 +29,4 @@ delivery-company
 	|		|----delivery-administration-infrastructure
 	|
 	|---- integration-module
-	|
-	|---- parent-module
+	
