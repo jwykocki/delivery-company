@@ -16,6 +16,8 @@
         <module>integration-module</module>
     </modules>
 
+
+
 <profiles>
     <profile>
         <id>java18</id>
@@ -44,5 +46,6 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
 </project>
