@@ -35,6 +35,26 @@
                         <target>18</target>
                     </configuration>
                 </plugin>
+
+                <plugin>
+                    <groupId>org.flywaydb</groupId>
+                    <artifactId>flyway-maven-plugin</artifactId>
+                    <version>9.8.1</version>
+                    <configuration>
+                        <user>databaseUser</user>
+                        <password>databasePassword</password>
+                        <schemas>
+                            <schema>Customers</schema>
+                            <schema>Orders</schema>
+                            <schema>Couriers</schema>
+                            <schema>Delivery</schema>
+                            <schema>Tracking</schema>
+                        </schemas>
+
+                    </configuration>
+                </plugin>
+
+
             </plugins>
         </build>
     </profile>
