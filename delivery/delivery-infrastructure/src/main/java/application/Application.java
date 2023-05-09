@@ -14,13 +14,13 @@ public class Application {
     }
 
     @Bean
-    public CommandLineRunner run(UserRepository userRepository) throws Exception {
+    public CommandLineRunner run(CustomerRepository customerRepository) throws Exception {
         return (String[] args) -> {
             Customer customer1 = new Customer("John", "john@domain.com", "New York");
             Customer customer2 = new Customer("Julie", "julie@domain.com", "Tokio");
-            CustomerRepository.save(customer1);
-            CustomerRepository.save(customer2);
-            CustomerRepository.findAll().forEach(System.out::println);
+            customerRepository.save(customer1);
+            customerRepository.save(customer2);
+            customerRepository.findAll().forEach(System.out::println);
         };
     }
 }
